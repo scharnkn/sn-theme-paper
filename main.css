@@ -14,7 +14,7 @@
   --sn-stylekit-neutral-color: #989898;
   --sn-stylekit-neutral-contrast-color: white;
 
-  --sn-stylekit-info-color: rgb(139 134 122);
+  --sn-stylekit-info-color: rgb(113 109 100);
   --sn-stylekit-info-contrast-color: white;
 
   --sn-stylekit-success-color: #73b564;
@@ -27,16 +27,16 @@
   --sn-stylekit-danger-contrast-color: white;
 
   --sn-stylekit-shadow-color: #c8c8c8;
-  --sn-stylekit-background-color: #ffffff;
+  --sn-stylekit-background-color: #fffcfa;
   --sn-stylekit-border-color: #efefed;
   --sn-stylekit-foreground-color: #32302c;
 
-  --sn-stylekit-contrast-background-color: #f9f8f7;
-  --sn-stylekit-contrast-foreground-color: #6b685f;
+  --sn-stylekit-contrast-background-color: #f9f6f1;
+  --sn-stylekit-contrast-foreground-color: #32302c;
   --sn-stylekit-contrast-border-color: #efefed;
 
-  --sn-stylekit-secondary-background-color: #f9f8f7;
-  --sn-stylekit-secondary-foreground-color: #6b685f;
+  --sn-stylekit-secondary-background-color: #f9f6f1;
+  --sn-stylekit-secondary-foreground-color: rgb(86 82 73);
   --sn-stylekit-secondary-border-color: #efefed;
 
   --sn-stylekit-secondary-contrast-background-color: #ffffff;
@@ -108,7 +108,7 @@
   --navigation-section-title-color: var(--sn-stylekit-secondary-foreground-color);
   --navigation-item-text-color: var(--sn-stylekit-secondary-foreground-color);
   --navigation-item-count-color: var(--sn-stylekit-neutral-color);
-  --navigation-item-selected-background-color: #f1f0ef;
+  --navigation-item-selected-background-color: #ede9e5;
 
   --preferences-navigation-icon-color: var(--sn-stylekit-neutral-color);
   --preferences-navigation-selected-background-color: var(--sn-stylekit-info-backdrop-color);
