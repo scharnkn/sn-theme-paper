@@ -88,7 +88,7 @@
   --editor-pane-component-stack-item-background-color: var(--sn-stylekit-background-color);
 
   --text-selection-color: var(--sn-stylekit-secondary-foreground-color);
-  --text-selection-background-color: var(--sn-stylekit-secondary-background-color);
+  --text-selection-background-color: #ede9e5;
 
   --note-preview-progress-color: var(--sn-stylekit-info-color);
   --note-preview-progress-background-color: var(--sn-stylekit-passive-color-4-opacity-variant);
