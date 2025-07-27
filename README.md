@@ -1,1 +1,1 @@
-# sn-theem-cozy
+# sn-theme-cozy
