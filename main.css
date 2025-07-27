@@ -64,7 +64,7 @@
   --sn-stylekit-grey-2: #bbbec4;
   --sn-stylekit-grey-3: #dfe1e4;
   --sn-stylekit-grey-4: #eeeff1;
-  --sn-stylekit-grey-4-opacity-variant: #bbbec43d;
+  --sn-stylekit-grey-4-opacity-variant: #ede9e5;
   --sn-stylekit-grey-5: #f4f5f7;
   --sn-stylekit-grey-6: #e5e5e5;
 
@@ -87,8 +87,8 @@
   --editor-pane-editor-foreground-color: var(--sn-stylekit-editor-foreground-color);
   --editor-pane-component-stack-item-background-color: var(--sn-stylekit-background-color);
 
-  --text-selection-color: var(--sn-stylekit-info-contrast-color);
-  --text-selection-background-color: var(--sn-stylekit-info-color);
+  --text-selection-color: var(--sn-stylekit-secondary-foreground-color);
+  --text-selection-background-color: var(--sn-stylekit-secondary-background-color);
 
   --note-preview-progress-color: var(--sn-stylekit-info-color);
   --note-preview-progress-background-color: var(--sn-stylekit-passive-color-4-opacity-variant);
