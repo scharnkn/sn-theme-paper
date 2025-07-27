@@ -31,13 +31,13 @@
   --sn-stylekit-border-color: #f0efee;
   --sn-stylekit-foreground-color: #32302c;
 
-  --sn-stylekit-contrast-background-color: #ffffff;
-  --sn-stylekit-contrast-foreground-color: #32302c;
-  --sn-stylekit-contrast-border-color: #e3e3e3;
+  --sn-stylekit-contrast-background-color: #f9f8f7;
+  --sn-stylekit-contrast-foreground-color: #5b5956;
+  --sn-stylekit-contrast-border-color: #efefed;
 
-  --sn-stylekit-secondary-background-color: #ffffff;
-  --sn-stylekit-secondary-foreground-color: #32302c;
-  --sn-stylekit-secondary-border-color: #e3e3e3;
+  --sn-stylekit-secondary-background-color: #f9f8f7;
+  --sn-stylekit-secondary-foreground-color: #969593;
+  --sn-stylekit-secondary-border-color: #efefed;
 
   --sn-stylekit-secondary-contrast-background-color: #ffffff;
   --sn-stylekit-secondary-contrast-foreground-color: #32302c;
@@ -108,7 +108,7 @@
   --navigation-section-title-color: var(--sn-stylekit-secondary-foreground-color);
   --navigation-item-text-color: var(--sn-stylekit-secondary-foreground-color);
   --navigation-item-count-color: var(--sn-stylekit-neutral-color);
-  --navigation-item-selected-background-color: rgb(253, 253, 253);
+  --navigation-item-selected-background-color: #f1f0ef;
 
   --preferences-navigation-icon-color: var(--sn-stylekit-neutral-color);
   --preferences-navigation-selected-background-color: var(--sn-stylekit-info-backdrop-color);
