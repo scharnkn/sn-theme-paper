@@ -14,7 +14,7 @@
   --sn-stylekit-neutral-color: #989898;
   --sn-stylekit-neutral-contrast-color: white;
 
-  --sn-stylekit-info-color: #34859b;
+  --sn-stylekit-info-color: rgb(139 134 122);
   --sn-stylekit-info-contrast-color: white;
 
   --sn-stylekit-success-color: #2b9612;
@@ -51,8 +51,8 @@
   --sn-stylekit-input-placeholder-color: rgb(168, 168, 168);
   --sn-stylekit-input-border-color: #e3e3e3;
 
-  --sn-stylekit-scrollbar-thumb-color: #dfdfdf;
-  --sn-stylekit-scrollbar-track-border-color: #e7e7e7;
+  --sn-stylekit-scrollbar-thumb-color: #d3d1cb;
+  --sn-stylekit-scrollbar-track-border-color: #d3d1cb;
 
   --sn-stylekit-general-border-radius: 2px;
 
