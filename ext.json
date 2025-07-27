@@ -1,0 +1,18 @@
+{
+    "identifier": "com.github.scharnkn.sn-theme-cozy",
+    "name": "Cozy",
+    "content_type": "SN|Theme",
+    "area": "themes",
+    "version": "0.1.0",
+    "description": "A light theme for Standard Notes using warm color theme.",
+    "url": "https://scharnkn.github.io/sn-theme-cozy/main.css",
+    "download_url": "https://github.com/scharnkn/sn-theme-cozy/archive/refs/tags/v0.1.0.zip",
+    "marketing_url": "https://github.com/scharnkn/sn-theme-cozy",
+    "latest_url": "https://scharnkn.github.io/sn-theme-cozy/ext.json",
+    "dock_icon": {
+        "type": "circle",
+        "background_color": "#FF0000",
+        "foreground_color": "#00FF00",
+        "border_color": "#FF00FF"
+    }
+}

@@ -1,11 +1,11 @@
 {
-        "name": "sn-theme-cozy",
-        "version": "1.0",
-        "sn": {
-            "main": "main.css"
-        },
-        "repository": {
-            "type": "git",
-            "url": "git://github.com/scharnkn/sn-theme-cozy.git"
-        }
+    "name": "sn-theme-cozy",
+    "version": "0.1.0",
+    "sn": {
+        "main": "main.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/scharnkn/sn-theme-cozy.git"
+    }
 }
