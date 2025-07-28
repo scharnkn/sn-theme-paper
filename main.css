@@ -14,7 +14,7 @@
   --sn-stylekit-neutral-color: #989898;
   --sn-stylekit-neutral-contrast-color: white;
 
-  --sn-stylekit-info-color: rgb(113 109 100);
+  --sn-stylekit-info-color: #5a564f;
   --sn-stylekit-info-contrast-color: white;
 
   --sn-stylekit-success-color: #73b564;
@@ -27,20 +27,20 @@
   --sn-stylekit-danger-contrast-color: white;
 
   --sn-stylekit-shadow-color: #c8c8c8;
-  --sn-stylekit-background-color: #fffcfa;
-  --sn-stylekit-border-color: #efefed;
-  --sn-stylekit-foreground-color: #32302c;
+  --sn-stylekit-background-color: #fefcfa;
+  --sn-stylekit-border-color: #dcdad7;
+  --sn-stylekit-foreground-color: #322f2a;
 
-  --sn-stylekit-contrast-background-color: #f9f6f1;
-  --sn-stylekit-contrast-foreground-color: #32302c;
-  --sn-stylekit-contrast-border-color: #efefed;
+  --sn-stylekit-contrast-background-color: #f9f7f4;
+  --sn-stylekit-contrast-foreground-color: #322f2a;
+  --sn-stylekit-contrast-border-color: #dcdad7;
 
-  --sn-stylekit-secondary-background-color: #f9f6f1;
-  --sn-stylekit-secondary-foreground-color: rgb(86 82 73);
-  --sn-stylekit-secondary-border-color: #efefed;
+  --sn-stylekit-secondary-background-color: #f9f7f4;
+  --sn-stylekit-secondary-foreground-color: #5a564f;
+  --sn-stylekit-secondary-border-color: #dcdad7;
 
   --sn-stylekit-secondary-contrast-background-color: #ffffff;
-  --sn-stylekit-secondary-contrast-foreground-color: #32302c;
+  --sn-stylekit-secondary-contrast-foreground-color: #322f2a;
   --sn-styleki--secondary-contrast-border-color: #a2a2a2;
 
   --sn-stylekit-editor-background-color: var(--sn-stylekit-background-color);
@@ -51,8 +51,8 @@
   --sn-stylekit-input-placeholder-color: rgb(168, 168, 168);
   --sn-stylekit-input-border-color: #e3e3e3;
 
-  --sn-stylekit-scrollbar-thumb-color: #d3d1cb;
-  --sn-stylekit-scrollbar-track-border-color: #d3d1cb;
+  --sn-stylekit-scrollbar-thumb-color: #dcdad7;
+  --sn-stylekit-scrollbar-track-border-color: #dcdad7;
 
   --sn-stylekit-general-border-radius: 2px;
 
@@ -64,7 +64,7 @@
   --sn-stylekit-grey-2: #bbbec4;
   --sn-stylekit-grey-3: #dfe1e4;
   --sn-stylekit-grey-4: #eeeff1;
-  --sn-stylekit-grey-4-opacity-variant: #ede9e5;
+  --sn-stylekit-grey-4-opacity-variant: #edeae6;
   --sn-stylekit-grey-5: #f4f5f7;
   --sn-stylekit-grey-6: #e5e5e5;
 
@@ -88,7 +88,7 @@
   --editor-pane-component-stack-item-background-color: var(--sn-stylekit-background-color);
 
   --text-selection-color: var(--sn-stylekit-secondary-foreground-color);
-  --text-selection-background-color: #ede9e5;
+  --text-selection-background-color: #edeae6;
 
   --note-preview-progress-color: var(--sn-stylekit-info-color);
   --note-preview-progress-background-color: var(--sn-stylekit-passive-color-4-opacity-variant);
@@ -108,7 +108,7 @@
   --navigation-section-title-color: var(--sn-stylekit-secondary-foreground-color);
   --navigation-item-text-color: var(--sn-stylekit-secondary-foreground-color);
   --navigation-item-count-color: var(--sn-stylekit-neutral-color);
-  --navigation-item-selected-background-color: #ede9e5;
+  --navigation-item-selected-background-color: #edeae6;
 
   --preferences-navigation-icon-color: var(--sn-stylekit-neutral-color);
   --preferences-navigation-selected-background-color: var(--sn-stylekit-info-backdrop-color);
