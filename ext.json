@@ -11,7 +11,7 @@
     "latest_url": "https://scharnkn.github.io/sn-theme-cozy/ext.json",
     "dock_icon": {
         "type": "circle",
-        "background_color": "#f9f6f1",
+        "background_color": "#edeae6",
         "foreground_color": "#32302c",
         "border_color": "#efefed"
     }
