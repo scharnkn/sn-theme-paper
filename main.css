@@ -70,8 +70,6 @@
   --sn-stylekit-sans-serif-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
     'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 
-
-
   --sn-stylekit-accessory-tint-color-1: #086dd6;
   --sn-stylekit-accessory-tint-color-2: #47343b;
   --sn-stylekit-accessory-tint-color-3: #ebad00;
@@ -91,7 +89,7 @@
   --editor-pane-editor-foreground-color: var(--sn-stylekit-editor-foreground-color);
   --editor-pane-component-stack-item-background-color: var(--sn-stylekit-background-color);
 
-  --text-selection-color: var(--sn-stylekit-secondary-foreground-color);
+  --text-selection-color: var(--sn-stylekit-foreground-color);
   --text-selection-background-color: #edeae6;
 
   --note-preview-progress-color: var(--sn-stylekit-info-color);
