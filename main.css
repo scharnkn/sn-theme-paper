@@ -1,37 +1,11 @@
 :root {
-  --cozy-tag-selected-background-color: #edebe8;
-  --cozy-border-color: #dcdbd9;
-
-  --sn-stylekit-theme-type: light;
-  --sn-stylekit-theme-name: sn-cozy;
-
-  --sn-stylekit-info-backdrop-color: var(--cozy-tag-selected-background-color);
-
-  --sn-stylekit-passive-color-1: #7e7a74;
-  --sn-stylekit-passive-color-2: #c4c1bd;
-  --sn-stylekit-passive-color-3: #e4e3e1;
-  --sn-stylekit-passive-color-4: #f1f1f1;
-  --sn-stylekit-passive-color-4-opacity-variant: var(--cozy-tag-selected-background-color);
-  --sn-stylekit-passive-color-5: #f7f7f7;
-  --sn-stylekit-passive-color-6: #e5e5e5;
-
-  --sn-stylekit-base-font-size: 14px;
-
-  --sn-stylekit-font-size-p: 1rem;
-  --sn-stylekit-font-size-editor: 1.21rem;
-
-  --sn-stylekit-font-size-h6: 0.8rem;
-  --sn-stylekit-font-size-h5: 0.9rem;
-  --sn-stylekit-font-size-h4: 1rem;
-  --sn-stylekit-font-size-h3: 1.1rem;
-  --sn-stylekit-font-size-h2: 1.2rem;
-  --sn-stylekit-font-size-h1: 1.3rem;
-
   --sn-stylekit-neutral-color: #b0ada9;
   --sn-stylekit-neutral-contrast-color: white;
 
   --sn-stylekit-info-color: #7e7a74;
+  --sn-stylekit-info-color-darkened: #065cb5;
   --sn-stylekit-info-contrast-color: white;
+  --sn-stylekit-info-backdrop-color: #edebe8;
 
   --sn-stylekit-success-color: #73b564;
   --sn-stylekit-success-contrast-color: white;
@@ -44,37 +18,45 @@
 
   --sn-stylekit-shadow-color: #c8c8c8;
   --sn-stylekit-background-color: #ffffff;
-  --sn-stylekit-border-color: var(--cozy-border-color);
+
+  --sn-stylekit-border-color: #dcdbd9;
   --sn-stylekit-foreground-color: #322f2b;
 
   --sn-stylekit-contrast-background-color: #f8f8f7;
   --sn-stylekit-contrast-foreground-color: #322f2b;
-  --sn-stylekit-contrast-border-color: var(--cozy-border-color);
+  --sn-stylekit-contrast-border-color: #dcdbd9;
 
   --sn-stylekit-secondary-background-color: #f8f8f7;
   --sn-stylekit-secondary-foreground-color: #5a5650;
-  --sn-stylekit-secondary-border-color: var(--cozy-border-color);
+  --sn-stylekit-secondary-border-color: #dcdbd9;
 
   --sn-stylekit-secondary-contrast-background-color: #ffffff;
   --sn-stylekit-secondary-contrast-foreground-color: #322f2b;
-  --sn-styleki--secondary-contrast-border-color: #a2a2a2;
+  --sn-stylekit-secondary-contrast-border-color: #a2a2a2;
 
   --sn-stylekit-editor-background-color: var(--sn-stylekit-background-color);
   --sn-stylekit-editor-foreground-color: var(--sn-stylekit-foreground-color);
 
   --sn-stylekit-paragraph-text-color: #454545;
 
-  --sn-stylekit-input-placeholder-color: rgb(168, 168, 168);
+  --sn-stylekit-input-placeholder-color: #a8a8a8;
   --sn-stylekit-input-border-color: #e3e3e3;
 
-  --sn-stylekit-scrollbar-thumb-color: var(--cozy-border-color);
-  --sn-stylekit-scrollbar-track-border-color: var(--cozy-border-color);
+  --sn-stylekit-scrollbar-thumb-color: #dcdbd9;
+  --sn-stylekit-scrollbar-track-border-color: #dcdbd9;
 
-  --sn-stylekit-general-border-radius: 2px;
+  --sn-stylekit-theme-type: light;
+  --sn-stylekit-theme-name: sn-cozy;
 
-  --sn-stylekit-monospace-font: 'Ubuntu Mono', courier, monospace;
-  --sn-stylekit-sans-serif-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
-    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  --sn-stylekit-passive-color-0: #515357;
+  --sn-stylekit-passive-color-1: #7e7a74;
+  --sn-stylekit-passive-color-2: #c4c1bd;
+  --sn-stylekit-passive-color-3: #e4e3e1;
+  --sn-stylekit-passive-color-4: #f1f1f1;
+  --sn-stylekit-passive-color-4-opacity-variant: #edebe8;
+  --sn-stylekit-passive-color-5: #f7f7f7;
+  --sn-stylekit-passive-color-6: #e5e5e5;
+  --sn-stylekit-passive-color-super-light: #f9f9f9;
 
   --sn-stylekit-accessory-tint-color-1: #086dd6;
   --sn-stylekit-accessory-tint-color-2: #47343b;
@@ -96,7 +78,7 @@
   --editor-pane-component-stack-item-background-color: var(--sn-stylekit-background-color);
 
   --text-selection-color: var(--sn-stylekit-foreground-color);
-  --text-selection-background-color: var(--cozy-tag-selected-background-color);
+  --text-selection-background-color: var(--sn-stylekit-info-backdrop-color);
 
   --note-preview-progress-color: var(--sn-stylekit-info-color);
   --note-preview-progress-background-color: var(--sn-stylekit-passive-color-4-opacity-variant);
@@ -116,13 +98,21 @@
   --navigation-section-title-color: var(--sn-stylekit-secondary-foreground-color);
   --navigation-item-text-color: var(--sn-stylekit-secondary-foreground-color);
   --navigation-item-count-color: var(--sn-stylekit-neutral-color);
-  --navigation-item-selected-background-color: var(--cozy-tag-selected-background-color);
+  --navigation-item-selected-background-color: var(--sn-stylekit-info-backdrop-color);
 
   --preferences-navigation-icon-color: var(--sn-stylekit-neutral-color);
   --preferences-navigation-selected-background-color: var(--sn-stylekit-info-backdrop-color);
+  --preferences-background-color: var(--sn-stylekit-contrast-background-color);
 
   --dropdown-menu-radio-button-inactive-color: var(--sn-stylekit-passive-color-1);
 
   --panel-resizer-background-color: var(--sn-stylekit-secondary-contrast-background-color);
   --link-element-color: var(--sn-stylekit-info-color);
+
+  --normal-button-background-color: var(--sn-stylekit-background-color);
+
+  --popover-background-color: var(--sn-stylekit-background-color);
+  --popover-border-color: var(--sn-stylekit-border-color);
+
+  --separator-color: var(--sn-stylekit-border-color);
 }
