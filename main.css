@@ -2,6 +2,9 @@
   --cozy-tag-selected-background-color: #edebe8;
   --cozy-border-color: #dcdbd9;
 
+  --sn-stylekit-theme-type: light;
+  --sn-stylekit-theme-name: sn-cozy;
+
   --sn-stylekit-info-backdrop-color: var(--cozy-tag-selected-background-color);
 
   --sn-stylekit-passive-color-1: #7e7a74;
