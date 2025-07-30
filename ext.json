@@ -3,10 +3,10 @@
     "name": "Cozy",
     "content_type": "SN|Theme",
     "area": "themes",
-    "version": "0.4.0",
+    "version": "0.5.0",
     "description": "A light theme for Standard Notes using warm color theme.",
     "url": "https://scharnkn.github.io/sn-theme-cozy/main.css",
-    "download_url": "https://github.com/scharnkn/sn-theme-cozy/archive/refs/tags/v0.4.0.zip",
+    "download_url": "https://github.com/scharnkn/sn-theme-cozy/archive/refs/tags/v0.5.0.zip",
     "marketing_url": "https://github.com/scharnkn/sn-theme-cozy",
     "latest_url": "https://scharnkn.github.io/sn-theme-cozy/ext.json",
     "dock_icon": {
