@@ -3,10 +3,10 @@
     "name": "Paper",
     "content_type": "SN|Theme",
     "area": "themes",
-    "version": "0.8.0",
+    "version": "0.9.0",
     "description": "A simple light theme for Standard Notes inspired by paper notebooks and highlighter pens.",
     "url": "https://scharnkn.github.io/sn-theme-paper/main.css",
-    "download_url": "https://github.com/scharnkn/sn-theme-paper/archive/refs/tags/v0.8.0.zip",
+    "download_url": "https://github.com/scharnkn/sn-theme-paper/archive/refs/tags/v0.9.0.zip",
     "marketing_url": "https://github.com/scharnkn/sn-theme-paper",
     "latest_url": "https://scharnkn.github.io/sn-theme-paper/ext.json",
     "dock_icon": {
