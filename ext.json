@@ -1,17 +1,17 @@
 {
-    "identifier": "com.github.scharnkn.sn-theme-cozy",
-    "name": "Cozy",
+    "identifier": "com.github.scharnkn.sn-theme-paper",
+    "name": "Paper",
     "content_type": "SN|Theme",
     "area": "themes",
-    "version": "0.7.0",
-    "description": "A light theme for Standard Notes using warm color theme.",
-    "url": "https://scharnkn.github.io/sn-theme-cozy/main.css",
-    "download_url": "https://github.com/scharnkn/sn-theme-cozy/archive/refs/tags/v0.7.0.zip",
-    "marketing_url": "https://github.com/scharnkn/sn-theme-cozy",
-    "latest_url": "https://scharnkn.github.io/sn-theme-cozy/ext.json",
+    "version": "0.8.0",
+    "description": "A simple light theme for Standard Notes inspired by paper notebooks and highlighter pens.",
+    "url": "https://scharnkn.github.io/sn-theme-paper/main.css",
+    "download_url": "https://github.com/scharnkn/sn-theme-paper/archive/refs/tags/v0.8.0.zip",
+    "marketing_url": "https://github.com/scharnkn/sn-theme-paper",
+    "latest_url": "https://scharnkn.github.io/sn-theme-paper/ext.json",
     "dock_icon": {
         "type": "circle",
-        "background_color": "#edebe8",
+        "background_color": "#38aef7",
         "foreground_color": "#322f2b",
         "border_color": "#7e7a74"
     }
