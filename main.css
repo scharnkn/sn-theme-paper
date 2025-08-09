@@ -48,15 +48,15 @@
   --sn-stylekit-theme-type: light;
   --sn-stylekit-theme-name: sn-cozy;
 
-  --sn-stylekit-passive-color-0: #515357;
-  --sn-stylekit-passive-color-1: #7e7a74;
-  --sn-stylekit-passive-color-2: #c4c1bd;
-  --sn-stylekit-passive-color-3: #e4e3e1;
-  --sn-stylekit-passive-color-4: #f1f1f1;
-  --sn-stylekit-passive-color-4-opacity-variant: #edebe8;
-  --sn-stylekit-passive-color-5: #f7f7f7;
-  --sn-stylekit-passive-color-6: #e5e5e5;
-  --sn-stylekit-passive-color-super-light: #f9f9f9;
+  --sn-stylekit-passive-color-0: #575453;
+  --sn-stylekit-passive-color-1: #7e7b78;
+  --sn-stylekit-passive-color-2: #c4c0ba;
+  --sn-stylekit-passive-color-3: #e4dfd8;
+  --sn-stylekit-passive-color-4: #f1ece5;
+  --sn-stylekit-passive-color-4-opacity-variant: #c4c0ba3d;
+  --sn-stylekit-passive-color-5: #f7f2ea;
+  --sn-stylekit-passive-color-6: #e5e0d9;
+  --sn-stylekit-passive-color-super-light: #f9f4ec;
 
   --sn-stylekit-accessory-tint-color-1: #00aee6;
   --sn-stylekit-accessory-tint-color-2: #fe88bc;
