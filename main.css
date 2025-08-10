@@ -1,69 +1,94 @@
 :root {
-  --sn-stylekit-neutral-color: #b0ada9;
+
+  --sn-paper-fg: hsl(36, 5%, 20%);
+  --sn-paper-border: hsl(36, 5%, 86%);
+
+  --sn-paper-grey-00: hsl(36, 5%, 35%);
+  --sn-paper-grey-01: hsl(36, 5%, 65%);
+  --sn-paper-grey-02: hsl(36, 5%, 80%);
+  --sn-paper-grey-03: hsl(36, 5%, 93%);
+  --sn-paper-grey-04: hsl(36, 5%, 95%);
+  --sn-paper-grey-05: hsl(36, 5%, 98%);
+
+  --sn-paper-hi-blue: #00aee6;
+  --sn-paper-hi-pink: #fe88bc;
+  --sn-paper-hi-yellow: #dbc413;
+  --sn-paper-hi-purple: #9f77ff;
+  --sn-paper-hi-green: #06c76c;
+  --sn-paper-hi-orange: #ffa346;
+
+  --sn-paper-notice-success: #069854;
+  --sn-paper-notice-warning: #948300;
+  --sn-paper-notice-danger: #ff1b24;
+
+  --sn-paper-selection-yellow: #eee8c0;
+  --sn-paper-selection-blue: #00aee614;
+
+  --sn-stylekit-neutral-color: var(--sn-paper-grey-01);
   --sn-stylekit-neutral-contrast-color: white;
 
-  --sn-stylekit-info-color: #a2988b;
-  --sn-stylekit-info-color-darkened: #322f2b;
+  --sn-stylekit-info-color: var(--sn-paper-grey-00);
+  --sn-stylekit-info-color-darkened: var(--sn-paper-fg);
   --sn-stylekit-info-contrast-color: white;
-  --sn-stylekit-info-backdrop-color: #edebe8;
+  --sn-stylekit-info-backdrop-color: var(--sn-paper-grey-03);
 
-  --sn-stylekit-success-color: #06c76c;
+  --sn-stylekit-success-color: var(--sn-paper-notice-success);
   --sn-stylekit-success-contrast-color: white;
 
-  --sn-stylekit-warning-color: #ffa346;
+  --sn-stylekit-warning-color: var(--sn-paper-notice-warning);
   --sn-stylekit-warning-contrast-color: white;
 
-  --sn-stylekit-danger-color: #fc4f43;
+  --sn-stylekit-danger-color: var(--sn-paper-notice-danger);
   --sn-stylekit-danger-contrast-color: white;
 
   --sn-stylekit-shadow-color: #c8c8c8;
   --sn-stylekit-background-color: #ffffff;
 
-  --sn-stylekit-border-color: #dcdbd9;
-  --sn-stylekit-foreground-color: #322f2b;
+  --sn-stylekit-border-color: var(--sn-paper-border);
+  --sn-stylekit-foreground-color: var(--sn-paper-fg);
 
-  --sn-stylekit-contrast-background-color: #f8f7f5;
-  --sn-stylekit-contrast-foreground-color: #322f2b;
-  --sn-stylekit-contrast-border-color: #dcdbd9;
+  --sn-stylekit-contrast-background-color: var(--sn-paper-grey-05);
+  --sn-stylekit-contrast-foreground-color: var(--sn-paper-fg);
+  --sn-stylekit-contrast-border-color: var(--sn-paper-border);
 
-  --sn-stylekit-secondary-background-color: #f8f7f5;
-  --sn-stylekit-secondary-foreground-color: #5a5650;
-  --sn-stylekit-secondary-border-color: #dcdbd9;
+  --sn-stylekit-secondary-background-color: var(--sn-paper-grey-05);
+  --sn-stylekit-secondary-foreground-color: var(--sn-paper-grey-00);
+  --sn-stylekit-secondary-border-color: var(--sn-paper-border);
 
-  --sn-stylekit-secondary-contrast-background-color: #ffffff;
-  --sn-stylekit-secondary-contrast-foreground-color: #322f2b;
-  --sn-stylekit-secondary-contrast-border-color: #a2a2a2;
+  --sn-stylekit-secondary-contrast-background-color: var(--sn-paper-grey-05);
+  --sn-stylekit-secondary-contrast-foreground-color: var(--sn-paper-fg);
+  --sn-stylekit-secondary-contrast-border-color: var(--sn-paper-border);
 
   --sn-stylekit-editor-background-color: var(--sn-stylekit-background-color);
   --sn-stylekit-editor-foreground-color: var(--sn-stylekit-foreground-color);
 
-  --sn-stylekit-paragraph-text-color: #454545;
+  --sn-stylekit-paragraph-text-color: var(--sn-paper-grey-00);
 
-  --sn-stylekit-input-placeholder-color: #a8a8a8;
-  --sn-stylekit-input-border-color: #e3e3e3;
+  --sn-stylekit-input-placeholder-color: var(--sn-paper-grey-00);
+  --sn-stylekit-input-border-color: var(--sn-paper-border);
 
-  --sn-stylekit-scrollbar-thumb-color: #dcdbd9;
-  --sn-stylekit-scrollbar-track-border-color: #dcdbd9;
+  --sn-stylekit-scrollbar-thumb-color: var(--sn-paper-border);
+  --sn-stylekit-scrollbar-track-border-color: var(--sn-paper-border);
 
   --sn-stylekit-theme-type: light;
-  --sn-stylekit-theme-name: sn-cozy;
+  --sn-stylekit-theme-name: sn-paper;
 
-  --sn-stylekit-passive-color-0: #575453;
-  --sn-stylekit-passive-color-1: #7e7b78;
-  --sn-stylekit-passive-color-2: #c4c0ba;
-  --sn-stylekit-passive-color-3: #e4dfd8;
-  --sn-stylekit-passive-color-4: #f1ece5;
-  --sn-stylekit-passive-color-4-opacity-variant: #c4c0ba3d;
-  --sn-stylekit-passive-color-5: #f7f2ea;
-  --sn-stylekit-passive-color-6: #e5e0d9;
-  --sn-stylekit-passive-color-super-light: #f9f4ec;
+  --sn-stylekit-passive-color-0: var(--sn-paper-grey-00);
+  --sn-stylekit-passive-color-1: var(--sn-paper-grey-01);
+  --sn-stylekit-passive-color-2: var(--sn-paper-grey-02);
+  --sn-stylekit-passive-color-3: var(--sn-paper-grey-03);
+  --sn-stylekit-passive-color-4: var(--sn-paper-grey-04);
+  --sn-stylekit-passive-color-4-opacity-variant: var(--sn-paper-grey-04);
+  --sn-stylekit-passive-color-5: var(--sn-paper-grey-05);
+  --sn-stylekit-passive-color-6: var(--sn-paper-grey-04);
+  --sn-stylekit-passive-color-super-light: var(--sn-paper-grey-05);
 
-  --sn-stylekit-accessory-tint-color-1: #00aee6;
-  --sn-stylekit-accessory-tint-color-2: #fe88bc;
-  --sn-stylekit-accessory-tint-color-3: #eace17;
-  --sn-stylekit-accessory-tint-color-4: #9f77ff;
-  --sn-stylekit-accessory-tint-color-5: #06c76c;
-  --sn-stylekit-accessory-tint-color-6: #ffa346;
+  --sn-stylekit-accessory-tint-color-1: var(--sn-paper-hi-blue);
+  --sn-stylekit-accessory-tint-color-2: var(--sn-paper-hi-pink);
+  --sn-stylekit-accessory-tint-color-3: var(--sn-paper-hi-yellow);
+  --sn-stylekit-accessory-tint-color-4: var(--sn-paper-hi-purple);
+  --sn-stylekit-accessory-tint-color-5: var(--sn-paper-hi-green);
+  --sn-stylekit-accessory-tint-color-6: var(--sn-paper-hi-orange);
 
   --modal-background-color: var(--sn-stylekit-background-color);
 
@@ -78,7 +103,7 @@
   --editor-pane-component-stack-item-background-color: var(--sn-stylekit-background-color);
 
   --text-selection-color: var(--sn-stylekit-foreground-color);
-  --text-selection-background-color: var(--sn-stylekit-info-backdrop-color);
+  --text-selection-background-color: var(--sn-paper-selection-yellow);
 
   --note-preview-progress-color: var(--sn-stylekit-info-color);
   --note-preview-progress-background-color: var(--sn-stylekit-passive-color-4-opacity-variant);
@@ -115,4 +140,30 @@
   --popover-border-color: var(--sn-stylekit-border-color);
 
   --separator-color: var(--sn-stylekit-border-color);
+
+  .Lexical__link {
+    color: var(--sn-stylekit-foreground-color);
+    background: linear-gradient(to bottom, transparent 50%, rgba(255, 204, 0, 0.4) 50%);
+    padding: 2px 4px;
+  }
+
+  .Lexical__link:hover {
+    color: var(--sn-stylekit-foreground-color);
+    background-color: rgba(255, 204, 0, 0.4);
+  }
+
+  .z-editor-title-bar.rounded-full {
+    background-color: var(--sn-stylekit-background-color);
+    color: var(--sn-stylekit-info-color);
+    border: solid var(--sn-stylekit-info-color);
+    border-width: 2px;
+  }
+
+  .toggled.rounded-full {
+    background-color: var(--sn-stylekit-background-color);
+    color: var(--sn-stylekit-info-color);
+    border: solid var(--sn-stylekit-info-color);
+    border-width: 2px;
+  }
+
 }
