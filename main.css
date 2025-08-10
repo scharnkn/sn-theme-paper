@@ -21,7 +21,7 @@
   --sn-paper-notice-warning: #948300;
   --sn-paper-notice-danger: #ff1b24;
 
-  --sn-paper-selection-yellow: #eee8c0;
+  --sn-paper-selection-yellow: rgb(237 222 22 / 35%);
   --sn-paper-selection-blue: #00aee614;
 
   --sn-stylekit-neutral-color: var(--sn-paper-grey-01);
@@ -132,7 +132,6 @@
   --dropdown-menu-radio-button-inactive-color: var(--sn-stylekit-passive-color-1);
 
   --panel-resizer-background-color: var(--sn-stylekit-secondary-contrast-background-color);
-  --link-element-color: var(--sn-stylekit-info-color);
 
   --normal-button-background-color: var(--sn-stylekit-background-color);
 
@@ -140,17 +139,6 @@
   --popover-border-color: var(--sn-stylekit-border-color);
 
   --separator-color: var(--sn-stylekit-border-color);
-
-  .Lexical__link {
-    color: var(--sn-stylekit-foreground-color);
-    background: linear-gradient(to bottom, transparent 50%, rgba(255, 204, 0, 0.4) 50%);
-    padding: 2px 4px;
-  }
-
-  .Lexical__link:hover {
-    color: var(--sn-stylekit-foreground-color);
-    background-color: rgba(255, 204, 0, 0.4);
-  }
 
   .z-editor-title-bar.rounded-full {
     background-color: var(--sn-stylekit-background-color);
