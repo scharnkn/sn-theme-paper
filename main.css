@@ -139,19 +139,4 @@
   --popover-border-color: var(--sn-stylekit-border-color);
 
   --separator-color: var(--sn-stylekit-border-color);
-
-  .z-editor-title-bar.rounded-full {
-    background-color: var(--sn-stylekit-background-color);
-    color: var(--sn-stylekit-info-color);
-    border: solid var(--sn-stylekit-info-color);
-    border-width: 2px;
-  }
-
-  .toggled.rounded-full {
-    background-color: var(--sn-stylekit-background-color);
-    color: var(--sn-stylekit-info-color);
-    border: solid var(--sn-stylekit-info-color);
-    border-width: 2px;
-  }
-
 }
